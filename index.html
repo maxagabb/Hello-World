@@ -1,0 +1,484 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111110501-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111110501-1');
+</script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <script src ="jquery-3.2.1.min.js"></script>
+
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <!--<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>-->
+      
+      
+      
+            <script>
+
+
+           $(document).ready(function(){
+         $("#mainNav"). click(function(){ 
+                        $(this).hide(1000); 
+                        });
+               $("#restNav"). click(function(){ 
+                        $("#mainNav").show(1000); 
+                        });
+        
+      });           
+                
+                
+                
+                
+        $(document).ready(function(){
+         $("#Label_love"). click(function(){ 
+                        $("#mainNav").show(1000);
+                        });
+         
+      });
+                
+                
+        $(document).ready(function(){
+                          $("p1").show(); 
+                          $("p2").show();
+                          $("p3").show();
+                        $("#Forum_text").hide();
+                          
+                          
+            $("#LabelPop"). click(function(){ 
+                        $("p1").toggle(500);
+
+                        });
+                          
+            $("#LabelProv"). click(function(){ 
+                        $("p2").toggle(500); 
+                        });
+                          
+            $("#Label_love"). click(function(){ 
+                        $("p3").toggle(500); 
+                        });
+            
+            $("#Forums"). click(function(){ 
+                        $("#Forum_text").toggle(1000); 
+                        });
+      });
+          
+
+      </script>
+      
+      <nav class="navbar-dark fixed-top" id="mainNav">
+      <div id="navRow" class="row">
+       <div id="navCol" class="col-12"></div>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger"  href="#user_content">User Content</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger"  href="sub_page.php">Submissions</a></li>  
+            <li class="nav-item"><a class="nav-link js-scroll-trigger"  href="#about">Mission</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger"  href="login_page.php">Login</a></li>
+        </ul>
+       </div>
+          </nav>
+
+      
+      
+
+      
+      
+
+    <header class="masthead">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading">Artique</h1>
+          <hr>
+          <p class ="bg-dark" id = "restNav">Click me to restore Navigation.</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" id ="Forums" >Forums</a>
+                                  <div class="container text-center" id ="Forum_text">
+              <p>Forums <span class="text-primary"> not available </span>  </p>
+                </div>
+            
+        </div>
+      </div>
+    </header>
+      
+          <section class="p-0" id="content">
+              
+              
+                              <div class="call-to-action bg-dark">
+      <div class="container text-center" id = "user_content">
+        <h2>Featured Content</h2>
+                        <form action="display.php" method = "post">
+          <input class="form-control" type ="text" name ="key" placeholder="Optional Keyword">
+                            <input class = "btn btn-primary btn-md" type="submit" value="Go!">
+              </form>
+      </div>
+    </div>
+              
+      <div class="container-fluid">
+        <div class="row justify-content-between" id = "pop_items">
+            <div class="col-lg-12 col-sm-12" id = "LabelPop">
+                <div class="call-to-action bg-primary">
+      <div class="container text-center">
+        <h2>Popular</h2>
+                    </div></div>
+    </div>
+          </div>
+           <div class="row justify-content-between" id = "pop_items">
+          <div class="col-lg-4 col-sm-12" id = "pop_item1">
+              <p1>
+              <div class="service-box">
+            <a class="portfolio-box" href="images/cat.jpg">
+              <img class="img-fluid" src="images/cat.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Links to Content Page
+                  </div>
+                  <div class="project-name">
+                    Content#1
+                  </div>
+                </div>
+              </div>
+            </a>
+                  </div>
+                  </p1>
+          </div>
+            
+          <div class="col-lg-4 col-sm-12" id = "pop_item2">
+              <p1>
+                  <div class="service-box">
+            <a class="portfolio-box" href="images/cat.jpg">
+              <img class="img-fluid" src="images/cat.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Links to Content Page
+                  </div>
+                  <div class="project-name">
+                    Content#2
+                  </div>
+                </div>
+              </div>
+            </a>
+                  </div>
+                  </p1>
+          </div>
+            
+            <div class="col-lg-4 col-sm-12" id = "pop_item3">
+                <p1>
+                    <div class="service-box">
+            <a class="portfolio-box" href="images/cat.jpg">
+              <img class="img-fluid" src="images/cat.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Links to Content Page
+                  </div>
+                  <div class="project-name">
+                    Content#3
+                  </div>
+                </div>
+              </div>
+            </a>
+                    </div>
+                    </p1>
+          </div>
+          </div>
+            </div>
+            
+            
+                  <div class="container-fluid">
+        <div class="row justify-content-between">
+            
+                        <div class="col-lg-12 col-sm-12" id = "LabelProv">
+                <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>Provocative</h2>
+                    </div></div>
+    </div>
+                      </div>  
+                      <div class="row justify-content-between">
+          <div class="col-lg-4 col-sm-12" id = "prov_item">
+              <p2>
+                  <div class="service-box">
+            <a class="portfolio-box" href="images/cat.jpg">
+              <img class="img-fluid" src="images/cat.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Links to Content Page
+                  </div>
+                  <div class="project-name">
+                    Content#4
+                  </div>
+                </div>
+              </div>
+            </a>
+                  </div>
+                  </p2>
+          </div>
+          
+            <div class="col-lg-4 col-sm-12" id = "prov_item">
+                <p2>
+                    <div class="service-box">
+            <a class="portfolio-box" href="images/cat.jpg">
+              <img class="img-fluid" src="images/cat.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Links to Content Page
+                  </div>
+                  <div class="project-name">
+                    Content#5
+                  </div>
+                </div>
+              </div>
+            </a>
+                    </div>
+                    </p2>
+          </div>
+            
+            <div class="col-lg-4 col-sm-12" id = "prov_item">
+                <p2>
+                    <div class="service-box">
+            <a class="portfolio-box" href="images/cat.jpg">
+              <img class="img-fluid" src="images/cat.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Links to Content Page
+                  </div>
+                  <div class="project-name">
+                    Content#6
+                  </div>
+                </div>
+              </div>
+            </a>
+                    </div>
+                    </p2>
+          </div>
+          </div>
+            </div>
+            
+            
+                  <div class="container-fluid">
+        <div class="row justify-content-between">
+            
+                                    <div class="col-lg-12 col-sm-12" id = "Label_love">
+                <div class="call-to-action bg-primary">
+      <div class="container text-center">
+        <h2>Loved</h2>
+                    </div></div>
+    </div>
+                      </div>
+                      <div class="row justify-content-between">
+            
+          <div class="col-lg-4 col-sm-12" id = "Popular1">
+              <p3>
+                  <div class="service-box">
+            <a class="portfolio-box" href="images/cat.jpg">
+              <img class="img-fluid" src="images/cat.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Links to Content Page
+                  </div>
+                  <div class="project-name">
+                    Content#7
+                  </div>
+                </div>
+              </div>
+            </a>
+                  </div>
+                  </p3>
+          </div>
+          <div class="col-lg-4 col-sm-12" id = "prov1">
+              <p3>
+                  <div class="service-box">
+            <a class="portfolio-box" href="images/cat.jpg">
+              <img class="img-fluid" src="images/cat.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Links to Content Page
+                  </div>
+                  <div class="project-name">
+                    Content#8
+                  </div>
+                </div>
+              </div>
+            </a>
+                  </div>
+                  </p3>
+          </div>
+            
+            <div class="col-lg-4 col-sm-12" id = "loved1">
+                <p3>
+                    <div class="service-box">
+            <a class="portfolio-box" href="images/cat.jpg">
+              <img class="img-fluid" src="images/cat.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Links to Content Page
+                  </div>
+                  <div class="project-name">
+                    Content#9
+                  </div>
+                </div>
+              </div>
+            </a>
+                    </div>
+                    </p3>
+          </div>
+          </div>
+            </div>
+
+
+      </section>    
+      
+      
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Mission Statement</h2>
+            <hr class="light">
+            <p class="text-faded">To further popularize illustrated naratives, and provide exposure to stories that are worth being seen. As demonstrated with an existing work below, excessively professional and detailed draftsmanship is not required to find great success. There are other factors such as the themes backing a work that make it valuable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">User Stories</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+              <h3>Cultivation</h3>
+              <p class="text-muted">As a creator/contributer I want to sign up for an account that allows me to upload my works to a public page that organizes works in different categories(such as Up Votes, Views etc.), where works that excel in a category are listed first in that category. Through uploading content that excels in certain categories I will find an audience.</p>
+            </div>
+          </div>
+          <!--div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+              <h3>Ready to Ship</h3>
+              <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+            </div>
+          </div-->
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+              <h3>Libraries</h3>
+              <p class="text-muted">As a consumer/visitor, I want to select and view content from a catalogue of illustrated works organized into categories. From this I have free access to a large library of original comics with easy access to the most popular, discussion provoking works.</p>
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-12 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+              <h3>Discussion</h3>
+              <p class="text-muted">As a consumer/critic, I want to visit links to discussion threads relevant to the content I view. From this I will engage in discussion for any work that inspires words from me. I seek to discuss about a variety of topics relating to the work including themes and criticism.  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+            
+
+
+      
+      
+
+      
+      
+      
+      
+  
+
+    <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>Sample Image: Junji Ito's Cat Diary</h2>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
